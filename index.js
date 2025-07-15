@@ -26,6 +26,10 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+app.get("/", (req, res) => {
+  res.send("GitHub Webhook Notifier is running!");
+});
+
 app.post("/webhook", (req, res) => {
   const signature = req.headers["x-hub-signature-256"];
   const hmac = crypto.createHmac("sha256", GITHUB_SECRET);

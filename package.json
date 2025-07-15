@@ -1,0 +1,29 @@
+{
+  "name": "github-webhook-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratxk/Github-Webhook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pratxk/Github-Webhook/issues"
+  },
+  "homepage": "https://github.com/pratxk/Github-Webhook#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.5"
+  }
+}

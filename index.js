@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   express.json({
-    verirfy: (req, res, buf) => {
+    verify: (req, res, buf) => {
       req.rawBody = buf;
     },
   })
